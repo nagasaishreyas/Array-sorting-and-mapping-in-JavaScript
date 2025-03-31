@@ -1,0 +1,15 @@
+<htmL>
+    <body>
+        <h5>Multiply every element in the array with 20</h5>
+        <p id="product_value"></p>
+        <script>
+            var number = [28, 6, 19, 95];
+
+            function myfunction(num) {
+                return num * 20;
+            }
+            var newarray = number.map(myfunction);
+            document.getElementById("product_value").innerHTML = newarray;
+        </script>
+    </body>
+</htmL>
